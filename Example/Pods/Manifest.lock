@@ -1,0 +1,16 @@
+PODS:
+  - LiveDetect (0.1.0)
+
+DEPENDENCIES:
+  - LiveDetect (from `../`)
+
+EXTERNAL SOURCES:
+  LiveDetect:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LiveDetect: 05caae95e64bb972f1ccf9b8806f3420ab8a6bdd
+
+PODFILE CHECKSUM: 42de8eb1763e2f450ef6fcb62c6da9ff7b783d0d
+
+COCOAPODS: 1.9.3

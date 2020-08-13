@@ -1,0 +1,6 @@
+framework module Pods_LiveDetect_Example {
+  umbrella header "Pods-LiveDetect_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

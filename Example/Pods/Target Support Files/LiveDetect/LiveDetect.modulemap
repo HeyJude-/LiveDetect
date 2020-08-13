@@ -1,0 +1,6 @@
+framework module LiveDetect {
+  umbrella header "LiveDetect-umbrella.h"
+
+  export *
+  module * { export * }
+}
