@@ -7,18 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0BF597CBEF83019120C527A6BF36B6E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		03685C9D0B7AD8F239699BA6DBB79373 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		25D073906D924422FCC29FE34E5079E2 /* Car.h in Headers */ = {isa = PBXBuildFile; fileRef = FDF4EB508A1B4D6E32593D1592A7BA52 /* Car.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2840615183928D04043BD69B5866DF3A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		5CFCF13600513BDE6682873EB81B8D58 /* Car.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C6C03C276DD6953491D42865C287499 /* Car.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		611473FFB34706D127FF44E04E11A116 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = EE203012C18305B58B3BF0EE05845F9A /* ReplaceMe.m */; };
 		68C5719AA130428D5724C8D2E403B503 /* Pods-LiveDetect_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CB3D389DE4CA6F02472BF41351F7F334 /* Pods-LiveDetect_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6DAE14119F3D021C8E0A60CB2D7E5AED /* LiveDetect-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A44363B79D2FF0C0BBEB81A70753C93C /* LiveDetect-dummy.m */; };
-		71254A011F4FEB7E8408D7FAE48DCB89 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = 3106976F2D302C89B944355D7B01A734 /* Car.m */; };
+		7E49AC281678E8BA466461E42E6A0E3F /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = D487C766910FEF56D4A6375C06C96D99 /* Car.m */; };
 		7E6CBB83A39CE58E5DFF033EEF74B660 /* Pods-LiveDetect_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 903131B5FFCC54D7370546C034F9533F /* Pods-LiveDetect_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		891FD19221344F78831E293BDB9E3564 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		8BEE47087AE00AFAFCFDB736B982B8DB /* Pods-LiveDetect_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F79CFC5D21787304CD74B2BF4EA03C49 /* Pods-LiveDetect_Tests-dummy.m */; };
 		9E68C81F58F08D98485B08848017B45E /* Pods-LiveDetect_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 171BEB64D77A1DAF4D636E8FBB46D5A8 /* Pods-LiveDetect_Example-dummy.m */; };
-		BAD39607F8FF5547205393E445DA62F4 /* LiveDetect-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A26B90D3D798DD879876E5AA5AB71CC /* LiveDetect-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF350A2ECB6E4E45B46A90FA2F1678F4 /* LiveDetect-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A57D4329B92561411F9565E65AC26A2 /* LiveDetect-dummy.m */; };
+		E6B9B63DC25FEE8153EE44961F86D456 /* LiveDetect-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 96B0B024154C11B5146BF8E96E824AF1 /* LiveDetect-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,57 +38,56 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0007CD98D2C22557B76C239B85D884B0 /* LiveDetect-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LiveDetect-prefix.pch"; sourceTree = "<group>"; };
 		00815945C827E50DE30FA93220FBCB6B /* Pods-LiveDetect_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LiveDetect_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		0A26B90D3D798DD879876E5AA5AB71CC /* LiveDetect-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LiveDetect-umbrella.h"; sourceTree = "<group>"; };
 		171BEB64D77A1DAF4D636E8FBB46D5A8 /* Pods-LiveDetect_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LiveDetect_Example-dummy.m"; sourceTree = "<group>"; };
 		1B9D6808250A3F9DC3ADF512646A8262 /* Pods-LiveDetect_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LiveDetect_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		1EA72BB697C778CD16DBDBF38B915E7B /* Pods-LiveDetect_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LiveDetect_Tests.modulemap"; sourceTree = "<group>"; };
-		23CA7C7B570AD5BF8D2DC61871199C8D /* LiveDetect.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LiveDetect.debug.xcconfig; sourceTree = "<group>"; };
 		27A1D6C8687F76D1903791065760FC02 /* Pods-LiveDetect_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LiveDetect_Example.release.xcconfig"; sourceTree = "<group>"; };
+		2A57D4329B92561411F9565E65AC26A2 /* LiveDetect-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LiveDetect-dummy.m"; sourceTree = "<group>"; };
 		2EADF3153AD15FC71782B8199F3115DD /* Pods-LiveDetect_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LiveDetect_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		3106976F2D302C89B944355D7B01A734 /* Car.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Car.m; path = LiveDetect/Classes/Car.m; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		32A84058C2E61BF9564EAB3D9714BD78 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		3F56C420213D501A1C1E3C362FAD1437 /* Pods-LiveDetect_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LiveDetect_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		4102BB669BCB4BC8B892AC0582F400F5 /* LiveDetect.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LiveDetect.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		440BE3E69B97AF4B4DADF5170A5D7823 /* LiveDetect-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LiveDetect-Info.plist"; sourceTree = "<group>"; };
+		5BC843E0877A8A89024261F0E0CD76E5 /* LiveDetect-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LiveDetect-Info.plist"; sourceTree = "<group>"; };
 		62A11211E4D4D9274256E2195734412B /* Pods-LiveDetect_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LiveDetect_Example.modulemap"; sourceTree = "<group>"; };
-		67C7E36C72C12CF63FA4B8D528433E4F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		6AB449C9E258430804940803FC67EB6D /* LiveDetect.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LiveDetect.modulemap; sourceTree = "<group>"; };
-		6C6C03C276DD6953491D42865C287499 /* Car.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Car.h; path = LiveDetect/Classes/Car.h; sourceTree = "<group>"; };
 		7324A7A3B3C9A3BDE90DACEE0C7C2711 /* Pods-LiveDetect_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LiveDetect_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		761785056D243293696100470DC1EB3D /* LiveDetect.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LiveDetect.release.xcconfig; sourceTree = "<group>"; };
 		76FF170CA64872FB315136A5826AD2E2 /* Pods-LiveDetect_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LiveDetect_Tests-Info.plist"; sourceTree = "<group>"; };
-		7E2E67DDCB247A0E31B829D08224175D /* Pods_LiveDetect_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LiveDetect_Example.framework; path = "Pods-LiveDetect_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		89F771792054D85E82C957BA14410DC3 /* LiveDetect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LiveDetect.framework; path = LiveDetect.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E2E67DDCB247A0E31B829D08224175D /* Pods_LiveDetect_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LiveDetect_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84A88D09093C86BDCFBA441FE2B055CB /* LiveDetect.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LiveDetect.modulemap; sourceTree = "<group>"; };
+		89F771792054D85E82C957BA14410DC3 /* LiveDetect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LiveDetect.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F64B6992FD15513B7E007FB33C735D9 /* LiveDetect.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LiveDetect.release.xcconfig; sourceTree = "<group>"; };
 		903131B5FFCC54D7370546C034F9533F /* Pods-LiveDetect_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LiveDetect_Tests-umbrella.h"; sourceTree = "<group>"; };
 		9076D5C0D848654F42B74E5F7FF8A324 /* Pods-LiveDetect_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LiveDetect_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A44363B79D2FF0C0BBEB81A70753C93C /* LiveDetect-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LiveDetect-dummy.m"; sourceTree = "<group>"; };
+		96B0B024154C11B5146BF8E96E824AF1 /* LiveDetect-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LiveDetect-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C28CB0B007ABE0802C32979303885CD3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		CB3D389DE4CA6F02472BF41351F7F334 /* Pods-LiveDetect_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LiveDetect_Example-umbrella.h"; sourceTree = "<group>"; };
+		D487C766910FEF56D4A6375C06C96D99 /* Car.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Car.m; path = LiveDetect/Classes/Car.m; sourceTree = "<group>"; };
+		D58BD632158459F610A4754BA1BE2143 /* LiveDetect.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = LiveDetect.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		D6275B08F92E418C879292ACFA1C9CE2 /* Pods-LiveDetect_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LiveDetect_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		DB9DA7BBE7C3E86C706BCA32BF44BF0B /* Pods-LiveDetect_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LiveDetect_Example-frameworks.sh"; sourceTree = "<group>"; };
-		DBAA835238FF9F7E1175071A44CD67D8 /* LiveDetect-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LiveDetect-prefix.pch"; sourceTree = "<group>"; };
 		DC99AA04FC36106ECCD08578843C78F1 /* Pods-LiveDetect_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LiveDetect_Example-Info.plist"; sourceTree = "<group>"; };
-		E6124F72D417A59F5587AE8D80001F1D /* Pods_LiveDetect_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LiveDetect_Tests.framework; path = "Pods-LiveDetect_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EC3CBBE5B2C24403F79C8C8DFA7947C9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		EE203012C18305B58B3BF0EE05845F9A /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = LiveDetect/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		E6124F72D417A59F5587AE8D80001F1D /* Pods_LiveDetect_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LiveDetect_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDE80DA9C75BAAA0F4A744C31CA0AAC0 /* LiveDetect.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LiveDetect.debug.xcconfig; sourceTree = "<group>"; };
 		F79CFC5D21787304CD74B2BF4EA03C49 /* Pods-LiveDetect_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LiveDetect_Tests-dummy.m"; sourceTree = "<group>"; };
+		FDF4EB508A1B4D6E32593D1592A7BA52 /* Car.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Car.h; path = LiveDetect/Classes/Car.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		073658FD5DFF5D46F3D1374716821210 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03685C9D0B7AD8F239699BA6DBB79373 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0EC173F43EDC82D448AD3E6417CC2833 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				2840615183928D04043BD69B5866DF3A /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5D13DEB16E77144462B92288AE1C53D5 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0BF597CBEF83019120C527A6BF36B6E6 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,21 +102,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		22F0852F5B95F172A0325A242648DE35 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				6AB449C9E258430804940803FC67EB6D /* LiveDetect.modulemap */,
-				A44363B79D2FF0C0BBEB81A70753C93C /* LiveDetect-dummy.m */,
-				440BE3E69B97AF4B4DADF5170A5D7823 /* LiveDetect-Info.plist */,
-				DBAA835238FF9F7E1175071A44CD67D8 /* LiveDetect-prefix.pch */,
-				0A26B90D3D798DD879876E5AA5AB71CC /* LiveDetect-umbrella.h */,
-				23CA7C7B570AD5BF8D2DC61871199C8D /* LiveDetect.debug.xcconfig */,
-				761785056D243293696100470DC1EB3D /* LiveDetect.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/LiveDetect";
-			sourceTree = "<group>";
-		};
 		2352A7109DA3BA887CCD1F18109D9AA1 /* Pods-LiveDetect_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -133,6 +116,26 @@
 			);
 			name = "Pods-LiveDetect_Tests";
 			path = "Target Support Files/Pods-LiveDetect_Tests";
+			sourceTree = "<group>";
+		};
+		6445D61518D0FDDC3DBF9731D86270D2 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6F0526C9AFD0FBBE93A63F69B2B50D88 /* LiveDetect */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		6F0526C9AFD0FBBE93A63F69B2B50D88 /* LiveDetect */ = {
+			isa = PBXGroup;
+			children = (
+				FDF4EB508A1B4D6E32593D1592A7BA52 /* Car.h */,
+				D487C766910FEF56D4A6375C06C96D99 /* Car.m */,
+				76C58D4EA6D70A9D45FA99094B34D5B7 /* Pod */,
+				EBE819061D27796EFEA5DDDA31ACF934 /* Support Files */,
+			);
+			name = LiveDetect;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		6FCCCB8931C2CA1F25866D99759E278C /* Pods-LiveDetect_Example */ = {
@@ -152,27 +155,14 @@
 			path = "Target Support Files/Pods-LiveDetect_Example";
 			sourceTree = "<group>";
 		};
-		757CCB8AC0829EDF225B8E26F975512C /* Pod */ = {
+		76C58D4EA6D70A9D45FA99094B34D5B7 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				EC3CBBE5B2C24403F79C8C8DFA7947C9 /* LICENSE */,
-				4102BB669BCB4BC8B892AC0582F400F5 /* LiveDetect.podspec */,
-				67C7E36C72C12CF63FA4B8D528433E4F /* README.md */,
+				32A84058C2E61BF9564EAB3D9714BD78 /* LICENSE */,
+				D58BD632158459F610A4754BA1BE2143 /* LiveDetect.podspec */,
+				C28CB0B007ABE0802C32979303885CD3 /* README.md */,
 			);
 			name = Pod;
-			sourceTree = "<group>";
-		};
-		A747CFCD605E2B401DBF216C03E35F9C /* LiveDetect */ = {
-			isa = PBXGroup;
-			children = (
-				6C6C03C276DD6953491D42865C287499 /* Car.h */,
-				3106976F2D302C89B944355D7B01A734 /* Car.m */,
-				EE203012C18305B58B3BF0EE05845F9A /* ReplaceMe.m */,
-				757CCB8AC0829EDF225B8E26F975512C /* Pod */,
-				22F0852F5B95F172A0325A242648DE35 /* Support Files */,
-			);
-			name = LiveDetect;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -187,7 +177,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				F9F5B52692E3D2556CCE69812BF592F3 /* Development Pods */,
+				6445D61518D0FDDC3DBF9731D86270D2 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				D5A4B76B896FC9A6FF34641107ECB945 /* Products */,
 				CFE92E61DCDF665F5979DB979EBC726F /* Targets Support Files */,
@@ -221,17 +211,33 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F9F5B52692E3D2556CCE69812BF592F3 /* Development Pods */ = {
+		EBE819061D27796EFEA5DDDA31ACF934 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				A747CFCD605E2B401DBF216C03E35F9C /* LiveDetect */,
+				84A88D09093C86BDCFBA441FE2B055CB /* LiveDetect.modulemap */,
+				2A57D4329B92561411F9565E65AC26A2 /* LiveDetect-dummy.m */,
+				5BC843E0877A8A89024261F0E0CD76E5 /* LiveDetect-Info.plist */,
+				0007CD98D2C22557B76C239B85D884B0 /* LiveDetect-prefix.pch */,
+				96B0B024154C11B5146BF8E96E824AF1 /* LiveDetect-umbrella.h */,
+				EDE80DA9C75BAAA0F4A744C31CA0AAC0 /* LiveDetect.debug.xcconfig */,
+				8F64B6992FD15513B7E007FB33C735D9 /* LiveDetect.release.xcconfig */,
 			);
-			name = "Development Pods";
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LiveDetect";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		145AD9521D2B883120C7F5642F490081 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25D073906D924422FCC29FE34E5079E2 /* Car.h in Headers */,
+				E6B9B63DC25FEE8153EE44961F86D456 /* LiveDetect-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8D0FEF64A1FC0D76DE73AC312ED57F05 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -245,15 +251,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E6CBB83A39CE58E5DFF033EEF74B660 /* Pods-LiveDetect_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D50B58EE212893B48109598EB1B4254D /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5CFCF13600513BDE6682873EB81B8D58 /* Car.h in Headers */,
-				BAD39607F8FF5547205393E445DA62F4 /* LiveDetect-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,12 +278,12 @@
 		};
 		A6E6EF53FA6C8C78D2C4B86F8AB99734 /* LiveDetect */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 31528CFA15DD781EBFF7337AEC68F427 /* Build configuration list for PBXNativeTarget "LiveDetect" */;
+			buildConfigurationList = 86BF6B97F61BD070394A10785159E0BA /* Build configuration list for PBXNativeTarget "LiveDetect" */;
 			buildPhases = (
-				D50B58EE212893B48109598EB1B4254D /* Headers */,
-				064CFFA609F68A3F64572B7EBEF82116 /* Sources */,
-				5D13DEB16E77144462B92288AE1C53D5 /* Frameworks */,
-				272385893DD466154F9947FEEC5F72D0 /* Resources */,
+				145AD9521D2B883120C7F5642F490081 /* Headers */,
+				1EA8C2CD5923DCBA1FB95C1E07CF87F4 /* Sources */,
+				073658FD5DFF5D46F3D1374716821210 /* Frameworks */,
+				85C9AABC045BCBD11D7222D988CDC994 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -346,13 +343,6 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		272385893DD466154F9947FEEC5F72D0 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		337A9F080D53641F1CFFB273F36C8C0B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -367,16 +357,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		85C9AABC045BCBD11D7222D988CDC994 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		064CFFA609F68A3F64572B7EBEF82116 /* Sources */ = {
+		1EA8C2CD5923DCBA1FB95C1E07CF87F4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71254A011F4FEB7E8408D7FAE48DCB89 /* Car.m in Sources */,
-				6DAE14119F3D021C8E0A60CB2D7E5AED /* LiveDetect-dummy.m in Sources */,
-				611473FFB34706D127FF44E04E11A116 /* ReplaceMe.m in Sources */,
+				7E49AC281678E8BA466461E42E6A0E3F /* Car.m in Sources */,
+				CF350A2ECB6E4E45B46A90FA2F1678F4 /* LiveDetect-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -447,6 +443,38 @@
 			};
 			name = Debug;
 		};
+		48DFDE2498617605C72ECB06D2B996B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F64B6992FD15513B7E007FB33C735D9 /* LiveDetect.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LiveDetect/LiveDetect-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LiveDetect/LiveDetect-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LiveDetect/LiveDetect.modulemap";
+				PRODUCT_MODULE_NAME = LiveDetect;
+				PRODUCT_NAME = LiveDetect;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -500,8 +528,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -571,37 +598,6 @@
 			};
 			name = Debug;
 		};
-		9269796DA9859F029A04876A8FB100E0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 23CA7C7B570AD5BF8D2DC61871199C8D /* LiveDetect.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LiveDetect/LiveDetect-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LiveDetect/LiveDetect-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LiveDetect/LiveDetect.modulemap";
-				PRODUCT_MODULE_NAME = LiveDetect;
-				PRODUCT_NAME = LiveDetect;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		B00A9ED555AE446B288C8595F7E35861 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1B9D6808250A3F9DC3ADF512646A8262 /* Pods-LiveDetect_Tests.release.xcconfig */;
@@ -636,9 +632,9 @@
 			};
 			name = Release;
 		};
-		D1A3CB9A62BF75973ADC5828000380FA /* Release */ = {
+		C5EE7E4ADC4FC68B6DD855E954F9C345 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 761785056D243293696100470DC1EB3D /* LiveDetect.release.xcconfig */;
+			baseConfigurationReference = EDE80DA9C75BAAA0F4A744C31CA0AAC0 /* LiveDetect.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -662,11 +658,10 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		D8BEB4E6B9DCF08501B4F41441F97C85 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -738,15 +733,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		31528CFA15DD781EBFF7337AEC68F427 /* Build configuration list for PBXNativeTarget "LiveDetect" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9269796DA9859F029A04876A8FB100E0 /* Debug */,
-				D1A3CB9A62BF75973ADC5828000380FA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -761,6 +747,15 @@
 			buildConfigurations = (
 				16016B8711B7203CBE1BF423EDCE71EF /* Debug */,
 				D8BEB4E6B9DCF08501B4F41441F97C85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86BF6B97F61BD070394A10785159E0BA /* Build configuration list for PBXNativeTarget "LiveDetect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5EE7E4ADC4FC68B6DD855E954F9C345 /* Debug */,
+				48DFDE2498617605C72ECB06D2B996B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
